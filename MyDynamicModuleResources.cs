@@ -3,7 +3,6 @@ using Telerik.Sitefinity.Localization.Data;
 
 namespace SitefinityWebApp
 {
-    [ObjectInfo(typeof(MyDynamicModuleResources), Title = "MyDynamicModuleResources", Description = "MyDynamicModuleResources")]
     public class MyDynamicModuleResources : Resource
     {
         /// <summary>
