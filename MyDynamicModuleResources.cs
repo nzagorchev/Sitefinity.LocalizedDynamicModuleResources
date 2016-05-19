@@ -5,6 +5,15 @@ namespace SitefinityWebApp
 {
     public class MyDynamicModuleResources : Resource
     {
+		public MyDynamicModuleResources()
+        {
+        }
+
+        public MyDynamicModuleResources(ResourceDataProvider dataProvider)
+            : base(dataProvider)
+        {
+        }
+		
         /// <summary>
         /// word: Title
         /// </summary>
